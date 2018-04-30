@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Music Player
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>  
+      <ion-thumbnail item-left>
+        <img src="{{track.art}}">
+      </ion-thumbnail>
+      <div item-content style="width:100%">
+        <p><strong>{{track.title}}</strong> ⚬ <em>{{track.artist}}</em></p>
+      </div>
+    </ion-item>
+
+    <ion-row id="music-controls">
+      <ion-col (click)="play()"><ion-icon name="play"></ion-icon></ion-col>
+      <ion-col (click)="pause()"><ion-icon name="pause"></ion-icon></ion-col>
+    </ion-row>
+</ion-content>
+
