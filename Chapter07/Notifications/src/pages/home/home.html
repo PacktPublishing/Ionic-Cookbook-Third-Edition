@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Local Notifications
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item padding>
+    <ion-label color="primary" stacked>Notification Message</ion-label>
+    <ion-input placeholder="Enter Notification Text here" [(ngModel)]="message"></ion-input>
+  </ion-item>
+  <button full ion-button color="primary" (click)="showNotification('now')">Show Notification</button>
+  <ion-item padding>
+    <ion-label>Time in seconds</ion-label>
+    <ion-datetime displayFormat="ss Second" placeholder="" [(ngModel)]="time"></ion-datetime>
+  </ion-item>
+  <button full ion-button color="primary" (click)="showNotification('future')">Schedule a Notification</button>
+  <button full ion-button color="primary" (click)="clearNotifications()">Clear all Notifications</button>
+</ion-content>
