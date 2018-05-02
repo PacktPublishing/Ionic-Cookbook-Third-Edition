@@ -1,6 +1,0 @@
-<ion-content padding>
-  <h1 padding>Secrets</h1>
-  <p *ngIf="!isAvailable">This Device doesn't have Fingerprint Sensor</p>
-  <p *ngIf="isAvailable && quote">{{quote.joke}}</p>
-  <button id="reveal-button" color="primary" *ngIf="!!isAvailable" ion-button round (click)="authenticate()">Reveal a Secret</button>
-</ion-content>
