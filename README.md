@@ -33,6 +33,3 @@ iOS: https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html
 * [Essential Angular 4](https://www.packtpub.com/application-development/essential-angular?utm_source=github&utm_medium=repository&utm_campaign=9781788293761)
 
 * [Angular UI Development with PrimeNG](https://www.packtpub.com/web-development/angular-ui-development-primeng?utm_source=github&utm_medium=repository&utm_campaign=9781788299572)
-
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
